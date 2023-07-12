@@ -1,8 +1,11 @@
 // 11.10.1. Practice Your Skills
-//Create an anonymous fucntion and set it equal to a variable.
+//Create an anonymous function and set it equal to a variable.
 
+let a = function(){
+    console.log("Hello world!");
 
-
+};
+ a();
 /* Your function should:
 a) If passed a number, return the tripled value.
 b) If passed a string, return the string “ARRR!”
